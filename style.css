@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.container-clock-country {
+    text-align: end;
+    color: rgb(105, 136, 126);
+}
+
+.container-clock-time {
+    text-align: center;
+    font-size: 80px;
+}
+
+.container-clock-day {
+    text-align: end;
+}
+
+footer {
+    display: flex;
+    gap: 3px;
+}
